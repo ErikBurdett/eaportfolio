@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { ListenButton } from './ListenButton';
 import './HeroSection.css';
+import { ProjectsButton } from './ProjectsButton';
 import { ShopButton } from './ShopButton';
 
 function HeroSection() {
@@ -48,6 +49,14 @@ function HeroSection() {
         >
           RESUME 
         </ShopButton>
+        <ProjectsButton
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          PROJECTS 
+        </ProjectsButton>
         <ShopButton
           className='btns'
           buttonStyle='btn--primary'

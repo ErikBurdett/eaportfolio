@@ -8,9 +8,8 @@ import ProductsHeroSection from '../ProductsHeroSection';
 export default function Products() {
   return(<>
     <ProductsHeroSection></ProductsHeroSection>
-    {/* <ProductsCards></ProductsCards> */}
+    <ProductsCards></ProductsCards>
     <Footer></Footer>
-    {/* a */}
   
   </>
   );
